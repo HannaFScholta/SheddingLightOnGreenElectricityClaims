@@ -5,7 +5,7 @@
 ###################################################################################################################
 
 #Set correct Working Directory
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results")
+setwd("INSERTPATH")
 getwd()
 
 #Install packages
@@ -25,9 +25,9 @@ data_types <- c("ALL RES", "Solar", "Wind", "Solar&Wind")
 
 for (data_type in data_types) {
   # Define the input and output path as well as file name
-  input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation/"
+  input_path <- "INSERTPATH"
   file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
-  output_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results"
+  output_path <- "INSERTPATH"
   
   #Read in hourly_coverage file
   file_path <- file.path(input_path, file_name)
