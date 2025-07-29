@@ -65,7 +65,7 @@ The folder "R Results" contains the outputs of the analysis scripts. The deliver
 
 	# Figure 1 is based on DF2 and was created with PowerPoint/Think Cell
 	# R plots merely served for initial illustration
-	# Table A1 builds on DF4
+	# Supplementary Table 1 builds on DF4
 
 
 	##################################################################
@@ -92,8 +92,8 @@ The folder "R Results" contains the outputs of the analysis scripts. The deliver
 	P6artDF10	pointchart_hloa_uncoveredIntervals_AvgUndercoverage_byHourOfDay_viaSumShortageDividedBySumGODemand_rel2demand_percAmount	Average Undercoverage throughout the uncovered intervals by Hour of Day, Average Undercoverage (percent); relative value, not calculated by timestamp as in Excel File but calculated via SUM Shortage/SUM GO Demand per Hour of Day	
 
 	# Figure 2 is based on ALL RES_DF8 and was created with PowerPoint/Think Cell 
-	# Figure A2 is based on Solar_DF8, Wind_DF8, Solar&Wind_DF8 and ALL RES_DF8 and was created with PowerPoint/Think Cell 
-	# Figure A3 is based on ALL RES_DF10 and was created with PowerPoint/Think Cell 
+	# Supplementary Figure 2 is based on Solar_DF8, Wind_DF8, Solar&Wind_DF8 and ALL RES_DF8 and was created with PowerPoint/Think Cell 
+	# Supplementary Figure 3 is based on ALL RES_DF10 and was created with PowerPoint/Think Cell 
 	# R plots merely served for initial illustration
 
 	# Text Value: 11.4% (Hour with largest volumetric shortfall) builds on DF10a
@@ -127,7 +127,7 @@ The folder "R Results" contains the outputs of the analysis scripts. The deliver
 	P14rtDF17	barchart_qloa_uncoveredIntervals_avgUndercoverage_byQuarterOfYear_viaSumShortageDividedBySumGODemand_rel2demand_perc		-"-	
 
 	
-	# Figure A1 is based on ALL RES_DF11 and ALL RES_DF15
+	# Supplementary Figure 1 is based on ALL RES_DF11 and ALL RES_DF15
 	# Text Values of average undercoverage are based on ALL RES DF13 and 15
 	# R plots merely served for initial illustration
 
