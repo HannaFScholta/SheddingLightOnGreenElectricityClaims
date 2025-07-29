@@ -23,7 +23,7 @@ ndays_b <- 60 # Originally set to 4 days; only CY shows gaps larger than 4 days 
 # generation_combined_data: Filter data for all green energy types (referred to as production types in the dataset)
 
 #Set working directory to folder containing entso-e data on actual generation per production type from https://transparency.entsoe.eu/generation/r2/actualGenerationPerProductionType/show, accessed 2023-04-04
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/1_Input Data/Generation Dataset")
+setwd("INSERTPATH/Generation Dataset")
 
 generation_raw_data <- data.frame()
 
