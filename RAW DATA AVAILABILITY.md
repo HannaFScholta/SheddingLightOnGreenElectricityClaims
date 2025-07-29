@@ -8,7 +8,7 @@ For entso-e data on generation and load, please see:
 
 - https://transparency.entsoe.eu/generation/r2/actualGenerationPerProductionType/show for "Actual Generation per Production Type: Aggregated generation per type"
 
-- https://transparency.entsoe.eu/generation/r2/actualGenerationPerProductionType/show for "Total Load - Day Ahead / Actual: Total load per bidding zone per market time unit"
+- https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show for "Total Load - Day Ahead / Actual: Total load per bidding zone per market time unit"
 
 For IAE data (Monthly Electricity Statistics), please see:
 
