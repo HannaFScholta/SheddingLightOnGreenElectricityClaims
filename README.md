@@ -10,8 +10,6 @@ Detailed explanations and justifications of our approach, both in handling the r
 
 # 1. ENTSO-E DATA PROCESSING 
 
-Input files:
-
 Note: all files run in one session in the order outlined below
 
 Note: to run analysis on your device, input and output paths need to be updated
