@@ -42,7 +42,7 @@ addWorksheet(wb, "GenType per CTY")
 writeData(wb, sheet = "GenType per CTY", gen_prodtypes_CTY)
 
 # Save the workbook as excel file
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/3_Outputs")
+setwd("INSERTPATH")
 saveWorkbook(wb, "generation_AIB.xlsx", overwrite = TRUE)
 
 ################################# SOLAR ####################################
@@ -71,7 +71,7 @@ addWorksheet(wb, "ARTIFICIAL_solar")
 writeData(wb, sheet = "ARTIFICIAL_solar", generation_filled_artificial_solar)
 
 # Save the workbook as excel file
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/3_Outputs")
+setwd("INSERTPATH")
 saveWorkbook(wb, "generation_AIB_solar.xlsx", overwrite = TRUE)
 
 ################################## WIND ####################################
@@ -100,7 +100,7 @@ addWorksheet(wb, "ARTIFICIAL_wind")
 writeData(wb, sheet = "ARTIFICIAL_wind", generation_filled_artificial_wind)
 
 # Save the workbook as excel file
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/3_Outputs")
+setwd("INSERTPATH")
 saveWorkbook(wb, "generation_AIB_wind.xlsx", overwrite = TRUE)
 
 ############################### SOLAR & WIND ###############################
@@ -126,7 +126,7 @@ addWorksheet(wb, "yearly_generation_solarwind")
 writeData(wb, sheet = "yearly_generation_solarwind", generation_yearly_AIB_solarwind)
 
 # Save the workbook as excel file
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/3_Outputs")
+setwd("INSERTPATH")
 saveWorkbook(wb, "generation_AIB_solarwind.xlsx", overwrite = TRUE)
 
 
@@ -159,5 +159,5 @@ addWorksheet(wb, "ARTIFICIAL")
 writeData(wb, sheet = "ARTIFICIAL", load_filled_artificial)
 
 # Save the workbook as excel file
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/3_Outputs")
+setwd("INSERTPATH")
 saveWorkbook(wb, "load_AIB.xlsx", overwrite = TRUE)
