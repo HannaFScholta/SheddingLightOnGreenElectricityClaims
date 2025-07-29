@@ -19,10 +19,6 @@ Note: to run analysis on your device, input and output paths need to be updated
   	3: Data Processing Load_vPub.R
   	4: ExcelWrite_vPub.R
 
-For outputs, see Folder "3_Outputs"
-
-For analysis of data imputation, see Folder "4_Data Imputation Overview"
-
 # 2. ENTSO-E & AIB DATA MERGING & COVERAGE CALCULATION 
 
 Note: Entso-e and AIB data were merged in excel - see excel files for more information; Coverages were also calculated there
