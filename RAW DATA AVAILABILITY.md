@@ -18,9 +18,9 @@ For EUROSTAT data (Supply, transformation and consumption of electricity - month
 
 - https://ec.europa.eu/eurostat/databrowser/view/NRG_CB_EM__custom_6370501/default/table
 
-# 2: ENTSO-E ...
+# 2: ENTSO-E & AIB DATA MERGING & COVERAGE CALCULATION
 
-For "Monthly GO issuance per production type per country" & "GOs issued and cancelled within each year", please see: 
+For AIB data, please see: 
 
-- https://www.aib-net.org/sites/default/files/assets/facts/market%20information/statistics/activity%20statistics/202103%20AIB%20Statistics%20old%20format%20v1.xlsx
-- https://www.aib-net.org/sites/default/files/assets/facts/market%20information/statistics/activity%20statistics/202304%20AIB%20Statistics%20new%20format%20v1.xlsx
+- https://www.aib-net.org/sites/default/files/assets/facts/market%20information/statistics/activity%20statistics/202103%20AIB%20Statistics%20old%20format%20v1.xlsx for "Monthly GO issuance per production type per country" & "GOs issued and cancelled within each year" from 2001 to 2019
+- https://www.aib-net.org/sites/default/files/assets/facts/market%20information/statistics/activity%20statistics/202304%20AIB%20Statistics%20new%20format%20v1.xlsx for "Monthly GO issuance per production type per country" & "GOs issued and cancelled within each year" from 2019 to April 2023; updated link: https://www.aib-net.org/sites/default/files/assets/facts/market%20information/statistics/activity%20statistics/202503%20AIB%20Statistics%20new%20format%20v1.xlsx
