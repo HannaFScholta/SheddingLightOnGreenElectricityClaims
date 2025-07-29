@@ -12,7 +12,7 @@ data_types <- c("ALL RES")
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
 
 #Read-in hourly_coverage file
@@ -227,7 +227,7 @@ years <- c("2016", "2017", "2018", "2019", "2020", "2021")
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -437,7 +437,7 @@ dloa_2016to21_allIntervals_avgCoverage_rel2demand_dec <- dloa_2016to21_allInterv
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -646,7 +646,7 @@ wloa_2016to21_allIntervals_avgCoverage_rel2demand_dec <- wloa_2016to21_allInterv
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -855,7 +855,7 @@ mloa_2016to21_allIntervals_avgCoverage_rel2demand_dec <- mloa_2016to21_allInterv
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_", data_type, "_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
