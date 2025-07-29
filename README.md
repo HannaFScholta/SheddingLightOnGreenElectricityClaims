@@ -3,9 +3,14 @@ by Hanna F. Scholta & Maximilian J. Blaschke
 
 Git-Hub Repository: SheddingLightOnGreenElectricityClaims
 
-This repository includes all code related to the analyses performed as part of the manuscript "Shedding light on green electricity claims: temporal matching for more transparency in voluntary markets". Detailed explanations and reasoning on how we proceeded as well as on the used raw data sets can be derived from the Method chapter of our paper.
+This repository includes all code related to the raw data processing and to the data analyses performed as part of the manuscript "Shedding light on green electricity claims: temporal matching for more transparency in voluntary markets". Detailed explanations and reasoning on how we proceeded as well as on the used raw data sets can be derived from the Method chapter of our paper. 
+
+The raw data used in this work is publicly available from the cited sources in the paper. An overview of the access links can be found in "RAW DATA AVAILABILITY.md"  
+
 
 # 1. ENTSO-E DATA PROCESSING 
+
+Input files:
 
 Note: all files run in one session in the order outlined below
 
