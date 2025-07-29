@@ -1,5 +1,4 @@
-## Builds on "Data Processing Generation_vfinal.R"; specifically by loading generation_raw_data TODO: Clear all variables besides generation_raw_data
-
+## Builds on "Data Processing Generation.R"; specifically by loading generation_raw_data
 library(dplyr)
 library(lubridate)
 
@@ -8,7 +7,7 @@ y2 <- 2021
 ndays_b <- 60 # Originally set to 4 days; only CY shows gaps larger than 4 days - those were filled via approach B - see method section of paper.
 
 #Set working directory to folder containing generation_raw_data
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/1_Input Data/Generation Dataset")
+setwd("INSERTPATH/Generation Dataset")
 
 ###################################################################################################################
 ###################################################################################################################
@@ -405,7 +404,7 @@ for (map_code in map_codes) {
 
 ################# DATA IMPUTATION VIA H-FACTORS FOR CROATIA ################
 ############################################################################
-# See Supplementary Data and Method Section for data on h-factors
+# See Method Section for data on h-factors
 
 # Creating the data frame with the h-factors for 2016
 month = c("2016-01", "2016-02", "2016-03", "2016-04", "2016-05", "2016-06", "2016-07", "2016-08", "2016-09", "2016-10",
@@ -971,7 +970,7 @@ for (map_code in map_codes) {
 
 ################# DATA IMPUTATION VIA H-FACTORS FOR CROATIA ################
 ############################################################################
-# See Supplementary Data and Method Section for data on h-factors
+# See Method Section for data on h-factors
 
 # Creating the data frame with the h-factors for 2016
 month = c("2016-01", "2016-02", "2016-03", "2016-04", "2016-05", "2016-06", "2016-07", "2016-08", "2016-09", "2016-10",
