@@ -17,7 +17,7 @@ ndays_b <- 60 # Originally set to 4 days; only CZ shows gaps larger than 4 days 
 # load_combined_data: Filter for selected countries of analysis
 # load_combined_data: Convert resolution codes to numeric (unit: minutes)
 
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/1_entso-e Data Processing/1_Input Data/Load Dataset")
+setwd("INSERTPATH/Load Dataset")
 
 load_raw_data <- data.frame()
 
@@ -446,7 +446,7 @@ for (map_code in map_codes) {
 
 ################# DATA IMPUTATION VIA H-FACTORS FOR CYPRUS #################
 ############################################################################
-# See Supplementary Data and Method Section for data on h-factors
+# See Method Section for data on h-factors
 
 # TotalLoadValues that need to be created
 rows_count <- load_filled %>%
@@ -501,7 +501,7 @@ load_filled[load_filled$Artificial == "C" & load_filled$MapCode == "CY", c("Tota
 
 ###################### ICELAND VALUES VIA H-FACTORS ########################
 ############################################################################
-# See Supplementary Data and Method Section for data on h-factors
+# See Method Section for data on h-factors
 
 month = c("2016-01", "2016-02", "2016-03", "2016-04", "2016-05", "2016-06", "2016-07", "2016-08", "2016-09", "2016-10",
           "2016-11", "2016-12", "2017-01", "2017-02", "2017-03", "2017-04", "2017-05", "2017-06", "2017-07", "2017-08",
