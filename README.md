@@ -5,7 +5,7 @@ by Hanna F. Scholta & Maximilian J. Blaschke
 
 This repository contains all code related to the raw data processing and data analyses conducted for the manuscript "Shedding light on green electricity claims: temporal matching for more transparency in voluntary markets." 
 
-Detailed explanations and justifications of our approach, both in handling the raw data and in performing the analyses, are provided in the Methods section of the manuscript. The raw data used in this work is publicly available from the sources cited in the paper. An overview of access links can also be found within this repository (see RAW DATA AVAILABILITY.md).
+Detailed explanations and justifications of our approach, both in handling the raw data and in performing the analyses, are provided in the Methods section of our manuscript. The raw data used in this work is publicly available from the sources cited in the paper. An overview of access links can also be found within this repository (see RAW DATA AVAILABILITY.md).
 
 
 # 1. ENTSO-E DATA PROCESSING 
