@@ -5,10 +5,10 @@
 ###################################################################################################################
 
 #Set correct  Working Directory
-setwd("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results")
+setwd("INSERTPATH")
 
 #Load and execute packages
-source("C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/1_R Analysis/Input Files/Load Packages.R")
+source("INSERTPATH/Input Files/Load Packages.R")
 #install.packages("gridExtra")
 library(gridExtra)
 
@@ -16,14 +16,14 @@ library(gridExtra)
 data_type <- c("ALL RES")
 
 #Load and execute level of analysis file
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/1_R Analysis/Input Files"
+input_path <- "INSERTPATH/Input Files"
 file_name <- paste0(data_type,"_All Level of Analysis.R")
 
 file_path <- file.path(input_path, file_name)
 source(file_path)
 
 #Define Output path
-output_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results/"
+output_path <- "INSERTPATH"
 
 #############################################################################################
 ############################### DF CREATION & CSV STORING ###################################
@@ -140,7 +140,7 @@ years <- as.character(2016:2021)
 #############################################################################
 
 # Set the target folder path
-target_folder <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results"
+target_folder <- "INSERTPATH"
 
 
 #Plot share of green electricity (save as png; y-axis from 0 to 100%)
