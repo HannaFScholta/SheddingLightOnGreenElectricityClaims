@@ -21,7 +21,7 @@ library(tidyr)
 #############################################################################################
 
 #Definition of input path and file name to import hourly ALL RES Coverage Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_ALL RES_vPub.xlsx")
 
 #Read-in hourly_coverage file
@@ -29,7 +29,7 @@ file_path <- file.path(input_path, file_name)
 hloa <- read_excel(file_path, sheet = "hourly_coverages")
 
 #Definition of input path and file name to import hourly Solar generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Solar_vPub.xlsx")
 
 #Read-in hourly solar generation file
@@ -37,7 +37,7 @@ file_path <- file.path(input_path, file_name)
 hloa_generation_solar <- read_excel(file_path, sheet = "hourly_generation_solar")
 
 #Definition of input path and file name to import hourly Wind generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Wind_vPub.xlsx")
 
 #Read-in hourly wind generation file
@@ -126,7 +126,7 @@ hloa_min_coverages_df <- hloa_min_coverages_df %>%
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_ALL RES_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -134,7 +134,7 @@ file_path <- file.path(input_path, file_name)
 dloa <- read_excel(file_path, sheet = "daily_coverages")
 
 #Definition of input path and file name to import daily Solar generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Solar_vPub.xlsx")
 
 #Read-in daily solar generation file
@@ -142,7 +142,7 @@ file_path <- file.path(input_path, file_name)
 dloa_generation_solar <- read_excel(file_path, sheet = "daily_generation_solar")
 
 #Definition of input path and file name to import daily Wind generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Wind_vPub.xlsx")
 
 #Read-in daily wind generation file
@@ -226,7 +226,7 @@ dloa_min_coverages_df <- dloa_min_coverages_df %>%
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_ALL RES_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -234,7 +234,7 @@ file_path <- file.path(input_path, file_name)
 wloa <- read_excel(file_path, sheet = "weekly_coverages")
 
 #Definition of input path and file name to import weekly Solar generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Solar_vPub.xlsx")
 
 #Read-in weekly solar generation file
@@ -242,7 +242,7 @@ file_path <- file.path(input_path, file_name)
 wloa_generation_solar <- read_excel(file_path, sheet = "weekly_generation_solar")
 
 #Definition of input path and file name to import weekly Wind generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Wind_vPub.xlsx")
 
 #Read-in weekly wind generation file
@@ -325,7 +325,7 @@ wloa_min_coverages_df <- wloa_min_coverages_df %>%
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_ALL RES_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -333,7 +333,7 @@ file_path <- file.path(input_path, file_name)
 mloa <- read_excel(file_path, sheet = "monthly_coverages")
 
 #Definition of input path and file name to import monthly Solar generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Solar_vPub.xlsx")
 
 #Read-in monthly solar generation file
@@ -341,7 +341,7 @@ file_path <- file.path(input_path, file_name)
 mloa_generation_solar <- read_excel(file_path, sheet = "monthly_generation_solar")
 
 #Definition of input path and file name to import monthly Wind generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Wind_vPub.xlsx")
 
 #Read-in monthly wind generation file
@@ -424,7 +424,7 @@ mloa_min_coverages_df <- mloa_min_coverages_df %>%
 #############################################################################################
 
 #Definition of input path and file name
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_ALL RES_vPub.xlsx")
 
 #Einlesen der hourly_coverage Datei
@@ -432,7 +432,7 @@ file_path <- file.path(input_path, file_name)
 qloa <- read_excel(file_path, sheet = "quarterly_coverages")
 
 #Definition of input path and file name to import quarterly Solar generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Solar_vPub.xlsx")
 
 #Read-in quarterly solar generation file
@@ -440,7 +440,7 @@ file_path <- file.path(input_path, file_name)
 qloa_generation_solar <- read_excel(file_path, sheet = "quarterly_generation_solar")
 
 #Definition of input path and file name to import quarterly Wind generation Data
-input_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/2_entso-e & AIB Data Merging & Coverage Calculation"
+input_path <- "INSERTPATH"
 file_name <- paste0("20240627 Data Merging & Coverage Calculation_Wind_vPub.xlsx")
 
 #Read-in quarterly wind generation file
@@ -585,7 +585,7 @@ combined_df <- bind_rows(
 )
 
 # Export combined_df as a CSV file to the specified path
-output_path <- "C:/Users/ga58qeg/OneDrive - TUM/Shedding Light on Green Claims - Supplementary Data/3_Data Analysis/2_R Results/1_Main Results"
+output_path <- "INSERTPATH"
 output_file_name <- "ALLRES_Min_Coverages_Scale-Up Solar&Wind.csv"
 output_file_path <- file.path(output_path, output_file_name)
 
